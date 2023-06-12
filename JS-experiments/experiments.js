@@ -1,5 +1,5 @@
 const timesToRepeat = 10;
-const character = "😶"
+const character = "❤️"
 let answer = ""
 
 
@@ -8,3 +8,7 @@ for (let i = 0; i < timesToRepeat; i++) {
 }
 
 console.log(answer)
+
+//or
+
+console.log("".padStart(timesToRepeat,character));
